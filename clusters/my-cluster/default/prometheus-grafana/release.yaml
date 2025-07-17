@@ -16,3 +16,7 @@ spec:
       interval: 10m
   values:
     replicaCount: 2
+    grafana:
+      service:
+        type: NodePort
+        nodePort: 30080
